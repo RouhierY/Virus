@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Virus.dir/MediaPlayer.c.o CMakeFiles/Virus.dir/PG1.c.o CMakeFiles/Virus.dir/PG2.c.o CMakeFiles/Virus.dir/PG3.c.o CMakeFiles/Virus.dir/PG4.c.o  -o Virus 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/yanni/OneDrive/Bureau/Virus/MediaPlayer.c
+stdio.h
+-
+sys/types.h
+-
+dirent.h
+-
+unistd.h
+-
+sys/stat.h
+-
+string.h
+-
+stdlib.h
+-
+

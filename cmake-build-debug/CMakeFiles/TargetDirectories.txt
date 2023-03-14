@@ -1,0 +1,3 @@
+/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/Virus.dir
