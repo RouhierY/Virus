@@ -15,7 +15,7 @@ void duplicate(char oldName[],char newName[]){
     FILE *src, *dest;
     char ch;
     src = fopen("PG1.txt", "r");
-    oldName=strcat(oldName,".c");
+    strcat(oldName,".c");
     printf("    %s\n", oldName);
     dest = fopen(oldName, "w");
     if (dest == NULL) {
@@ -24,7 +24,7 @@ void duplicate(char oldName[],char newName[]){
     while ((ch = fgetc(src)) != EOF) {
         fputc(ch, dest);
     }
-//    printf("    Le fichier a été copié avec succès.\n");
+    printf("    Le fichier a été copié avec succès.\n");
     fclose(src);
     fclose(dest);
 }
@@ -32,7 +32,7 @@ void duplicate(char oldName[],char newName[]){
 void findFile() {
     struct dirent *dp;
     struct stat statbuffer;
-    char buffer[BUFFER_SIZE],*newName[100],*oldName[100];
+    char buffer[BUFFER_SIZE];
     DIR *dir;
 //    char *cible[500];
     size_t t=0;
@@ -42,24 +42,31 @@ void findFile() {
     while ((dp = readdir(dir)) != NULL) {
         stat(dp->d_name,&statbuffer);
         if(dp->d_type==DT_REG){
-            char *oldName=dp->d_name, *oldOldName[100];
-            if (stat(oldName, &statbuffer) == -1) {
+            char    oldName[256], oldOldName[256],newName[256];
+            if (stat(dp->d_name, &statbuffer) == -1) {
                 perror("stat error");
                 exit(EXIT_FAILURE);
             }
-            if (S_ISREG(statbuffer.st_mode) && (statbuffer.st_mode & S_IXUSR) && strrchr(oldName, '.') == NULL) {
+            if (S_ISREG(statbuffer.st_mode) && (statbuffer.st_mode & S_IXUSR) && strrchr(dp->d_name, '.') == NULL) {
+                printf( "   Target File: '%s'\n",dp->d_name);
                 //                cible[t]=dp->d_name;
                 t++;
                 strcpy(oldName,dp->d_name);
                 strcpy(oldOldName,oldName);
+                strcpy(newName, dp->d_name);
+                if (rename(dp->d_name, newName) != 0) {
+                    printf("%s\n",dp->d_name);
+                    perror("rename error");
+                    exit(EXIT_FAILURE);
+                }
                 strcat(newName,".old");
-//                rename(dp->d_name,newName);
-                printf( "   Target File: '%s'\n",dp->d_name);
-//                duplicate(oldOldName,newName);
+                rename(dp->d_name,newName);
+//                printf("----------------------%s\n",newName);
+                duplicate(oldOldName,newName);
 
             }
             else{
-                printf("Non Target File: '%s'\n",dp->d_name);
+//                printf("Non Target File: '%s'\n",dp->d_name);
 
             }
         }
