@@ -234,10 +234,5 @@ int main(int argc, char *argv[])
     gtk_widget_show_all(mainWindow);
     g_signal_connect(mainWindow, "destroy", G_CALLBACK(gtk_main_quit), NULL);
     gtk_main();
-
-    // lecture tableau cible
-    //    for (int i = 0; i < t; i++) {
-    //        printf("%s ", cible[i]);
-    //    }
     return 0;
 }
