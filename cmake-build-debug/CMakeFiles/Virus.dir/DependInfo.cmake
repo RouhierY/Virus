@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/MediaPlayer.c" "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/Virus.dir/MediaPlayer.c.o"
-  "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/PG1.c" "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/Virus.dir/PG1.c.o"
-  "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/PG2.c" "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/Virus.dir/PG2.c.o"
-  "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/PG3.c" "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/Virus.dir/PG3.c.o"
-  "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/PG4.c" "/mnt/c/Users/yanni/OneDrive/Bureau/Virus/cmake-build-debug/CMakeFiles/Virus.dir/PG4.c.o"
+  "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/MediaPlayer.c" "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/cmake-build-debug/CMakeFiles/Virus.dir/MediaPlayer.c.o"
+  "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/PG1.c" "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/cmake-build-debug/CMakeFiles/Virus.dir/PG1.c.o"
+  "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/PG2.c" "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/cmake-build-debug/CMakeFiles/Virus.dir/PG2.c.o"
+  "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/PG3.c" "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/cmake-build-debug/CMakeFiles/Virus.dir/PG3.c.o"
+  "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/PG4.c" "/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/cmake-build-debug/CMakeFiles/Virus.dir/PG4.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

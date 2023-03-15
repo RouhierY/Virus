@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yrouhier/ProjetSecu/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/source.c.dir/MediaPlayer.c.o   -c /home/yrouhier/ProjetSecu/MediaPlayer.c",
+  "file": "/home/yrouhier/ProjetSecu/MediaPlayer.c"
+}
+]

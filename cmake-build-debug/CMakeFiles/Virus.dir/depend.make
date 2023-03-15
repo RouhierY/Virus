@@ -5,9 +5,6 @@ CMakeFiles/Virus.dir/MediaPlayer.c.o: ../MediaPlayer.c
 
 CMakeFiles/Virus.dir/PG1.c.o: ../PG1.c
 
-CMakeFiles/Virus.dir/PG2.c.o: ../PG2.c
 
-CMakeFiles/Virus.dir/PG3.c.o: ../PG3.c
 
-CMakeFiles/Virus.dir/PG4.c.o: ../PG4.c
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/yanni/OneDrive/Bureau/Virus/MediaPlayer.c
+/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/MediaPlayer.c
 stdio.h
 -
 sys/types.h
@@ -20,5 +20,9 @@ sys/stat.h
 string.h
 -
 stdlib.h
+-
+
+/mnt/c/Users/yanni/OneDrive/Bureau/ProjetSecu/PG1.c
+stdio.h
 -
 
