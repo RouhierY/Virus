@@ -5,5 +5,5 @@ to rename actual object files by adding ".old" and then "MediaPlayer" duplicates
 
 
 # How it works
-  On linux terminal you compile:  gcc -Wall MediaPlayer.c -o MediaPlayer  
+  On linux terminal you compile:  gcc -o MediaPlayer MediaPlayer.c `pkg-config --cflags --libs gtk+-3.0` -I/usr/include/gtk-3.0
   Then execute                 :  ./MediaPlayer
