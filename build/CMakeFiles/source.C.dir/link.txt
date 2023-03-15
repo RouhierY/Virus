@@ -1,1 +1,1 @@
-/usr/bin/gcc -g   CMakeFiles/source.c.dir/MediaPlayer.c.o  -o source.c 
+/usr/bin/gcc -g   CMakeFiles/source.C.dir/MediaPlayer.c.o  -o source.C 
